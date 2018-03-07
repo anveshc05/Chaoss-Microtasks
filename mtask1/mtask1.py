@@ -31,8 +31,8 @@ def create_config(org):
 
 	config.add_section('sortinghat')
 	config['sortinghat']['host'] = 'localhost'
-	config['sortinghat']['user'] = 'anv'
-	config['sortinghat']['password'] = 'passpass'
+	config['sortinghat']['user'] = 'user'
+	config['sortinghat']['password'] = 'XXX'
 	config['sortinghat']['database'] = 'shatdb'
 	config['sortinghat']['load_orgs'] = 'false'
 	config['sortinghat']['unify_method'] = ''
@@ -57,7 +57,7 @@ def create_config(org):
 	config['git']['enriched_index'] = 'git-test'
 
 	config.add_section('github')
-	config['github']['api-token'] = '2ba7ae1bcf2b92e0165f839e665723ac44ee223d'
+	config['github']['api-token'] = 'XXX'
 	config['github']['raw_index'] = 'github_test-raw'
 	config['github']['enriched_index'] = 'github-test'
 

@@ -22,9 +22,9 @@ All the screenshots have been placed in the folder [Screenshots](https://github.
 
 _Some sample screenshots for reference_
 
-![git](https://github.com/anveshc05/Chaoss-Microtasks/tree/master/mtask1/Screenshots/Haiku/haiku_git_full.png)
+![haiku git: ](https://github.com/anveshc05/Chaoss-Microtasks/tree/master/mtask1/Screenshots/Haiku/haiku_git_full.png )
 
-![pull_requests](https://github.com/anveshc05/Chaoss-Microtasks/tree/master/mtask1/Screenshots/Haiku/github_pull_requests.png)
+![haiku pullrequests: ](https://github.com/anveshc05/Chaoss-Microtasks/tree/master/mtask1/Screenshots/Haiku/github_pull_requests.png)
 
 
 **How To Run**  
