@@ -31,12 +31,12 @@ _Some sample screenshots for reference_
 * Clone the repository using
 > git clone https://github.com/anveshc05/Chaoss-Microtasks.git
 * Run command
-> python mtask1.py <orgname>   
-* This would lead to formation of 2 files <orgname>.cfg and <orgname>.json
+> python mtask1.py orgname   
+* This would lead to formation of 2 files orgname.cfg and orgname.json
 * Start elasticearch and kibana.
 * Change the name of sorting-hat user, sorting-hat password and [add your github api token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) to the github backend.
 * Run the command 
-> mordred -c <orgname>.cfg
+> mordred -c orgname.cfg
 * Run kibana to see dashboards.
 
 
