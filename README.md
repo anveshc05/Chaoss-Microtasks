@@ -3,7 +3,7 @@
 * **Requirements**
 1. development environment, python3, pip3
 2. Elasticsearch running on localhost:9200, Kibana running on localhost:5601
-3. Grimoielab packages like sortinghat, perceval; 
+3. Grimoirelab packages like sortinghat, perceval  
 
 #### Micro-task 1
 
@@ -11,7 +11,7 @@ Produce a Python script that produces configuration files for Mordred to analyze
 
 **Solution file**  
 
-The python code which generates the configuration files which generate the configuration files for mordred can be found in the [mtask1](https://github.com/anveshc05/Chaoss-Microtasks/tree/master/mtask1/) directory by the name [mtask1.py](https://github.com/anveshc05/Chaoss-Microtasks/tree/master/mtask1/mtask1.py).
+The python code which generates the configuration files which generate the configuration files for mordred can be found in the [mtask1](mtask1/) directory by the name [mtask1.py](mtask1/mtask1.py).
 
 I have produced dashboards for 2 repositories which are
 * [haiku](https://github.com/haiku)
@@ -22,9 +22,9 @@ All the screenshots have been placed in the folder [Screenshots](https://github.
 
 _Some sample screenshots for reference_
 
-![haiku git: ](https://github.com/anveshc05/Chaoss-Microtasks/tree/master/mtask1/Screenshots/Haiku/haiku_git_full.png )
+![haiku git ](mtask1/Screenshots/Haiku/haiku_git_full.png )
 
-![haiku pullrequests: ](https://github.com/anveshc05/Chaoss-Microtasks/tree/master/mtask1/Screenshots/Haiku/github_pull_requests.png)
+![haiku pullrequests ](mtask1/Screenshots/Haiku/github_pull_requests.png)
 
 
 **How To Run**  
