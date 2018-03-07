@@ -78,18 +78,16 @@ def get_repo_url(org):
 			if not repo['fork']:
 				git.append(repo['clone_url'])
 				github.append(repo['html_url'])
-				names.append(repo['name'])
 		if not r.links:
 			break
 		r = requests.get(r.links['next']['url'])
-	return git, github, names
-
+	return git, github
 def main():
 	if len(sys.argv) != 2:
 		print("Format :: python mtask1.py <orgname to explore>")
 		sys.exit(1)
 	org = sys.argv[1]
-	repos, repo_github, subprojects= get_repo_url(org)
+	repos, repo_github = get_repo_url(org)
 	config_file = create_config(org)
 	json_obj = {}
 	json_obj[org] = {}
@@ -103,7 +101,6 @@ def main():
 
 	# print (repos)
 	# print(repo_github)
-	# print (subprojects)
 
 if __name__ == '__main__':
 	main()
