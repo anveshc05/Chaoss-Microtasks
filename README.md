@@ -54,13 +54,13 @@ All the screenshots have been placed in the [Screenshots](mtask2/Screenshots/) d
 
 _Some Sample Screenshots for reference_
 
-![initial_dashboard_1_repo ](mtask1/Screenshots/initial-dashboard/git/grimoire_git_3.png)
+![initial_dashboard_1_repo ](mtask2/Screenshots/initial-dashboard/git/grimoire_git_3.png)
 
 
-![add_same_project_repo ](mtask1/Screenshots/add_same_project_repo/git/2_repo_git_3.png)
+![add_same_project_repo ](mtask2/Screenshots/add_same_project_repo/git/2_repo_git_3.png)
 
 
-![add_different_project_repo ](mtask1/Screenshots/add_different_project_repo/git/diff_project_git_3.png)
+![add_different_project_repo ](mtask2/Screenshots/add_different_project_repo/git/diff_project_git_3.png)
 
 * **How To Run**  
 * Run command
