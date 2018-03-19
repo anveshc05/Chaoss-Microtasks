@@ -4,6 +4,10 @@ import json
 import configparser
 
 def create_config(org):
+	'''
+	function to create the config file for mordred
+	:params org: name of organization
+	'''
 	config = configparser.ConfigParser()
 	config.add_section('general')
 	config['general']['short_name'] = 'GrimoireLab'
@@ -54,17 +58,21 @@ def create_config(org):
 
 	config.add_section('git')
 	config['git']['raw_index'] = 'git_test-raw'
-	config['git']['enriched_index'] = 'git-test'
+	config['git']['enriched_index'] = 'git_test'
 
 	config.add_section('github')
 	config['github']['api-token'] = 'XXX'
 	config['github']['raw_index'] = 'github_test-raw'
-	config['github']['enriched_index'] = 'github-test'
+	config['github']['enriched_index'] = 'github_test'
 
 	return config
 
 
 def get_repo_url(org):
+	'''
+	this function queries the github api for the repositories present in the org
+	:param org : name of organization
+	'''
 	git = []
 	github = []
 	names = []
@@ -82,6 +90,8 @@ def get_repo_url(org):
 			break
 		r = requests.get(r.links['next']['url'])
 	return git, github
+
+
 def main():
 	if len(sys.argv) != 2:
 		print("Format :: python mtask1.py <orgname to explore>")
