@@ -50,7 +50,7 @@ The python code which generates the configuration files which generate the confi
 I have shown the addition of two different repositories to the dashboard, one from the same project and one from another project for showing the working of implementation
 
 * **Screenshots**  
-All the screenshots have been placed in the [Screenshots](mtask2/Screenshots/) directory inside the [mtask1](mtask2/) directory.
+All the screenshots have been placed in the [Screenshots](mtask2/Screenshots/) directory inside the [mtask2](mtask2/) directory.
 
 _Some Sample Screenshots for reference_
 
@@ -72,4 +72,33 @@ _Some Sample Screenshots for reference_
 > mordred -c projectname_reponame.cfg
 * Run kibana to see dashboards.
 
+### Micro-task 3
 
+Produce a Python script that removes a GitHub repository (git and GitHub issues / pull requests) from a working GrimoireLab dashboard, by modifying the needed Mordred configuration files, and fixing the raw and enriched indexes to remove the items for the removed repository. Test it by removing at least two repositories (in two separate steps) from a GrimoireLab dashboard, producing screenshots of the results.
+
+* **Solution File**
+
+The python code which deletes the repository from a pre-existing kibana dashboard can be found in the [mtask3](mtask3/) directory by the name [mtask3.py](mtask3/mtask3.py).
+
+The two repositories which were added in the Micro-task 2 are shown to be deleted in this microtask in two seperate steps.
+
+* **Screenshots**  
+All the screenshots have been placed in the [Screenshots](mtask3/Screenshots/) directory inside the [mtask3](mtask3/) directory.
+
+_Some Sample Screenshots for reference_
+
+![initial_dashboard_1_repo ](mtask3/Screenshots/initial-dashboard/Git/grimoire_git_3.png)
+
+
+![Delete_repo_1 ](mtask3/Screenshots/Delete_repo_1/Git/robocomp_del_git_3.png)
+
+
+![add_different_project_repo ](mtask3/Screenshots/Delete_repo_2/Git/hatstall_del_git_3.png)
+
+* **How To Run**  
+* Start elasticearch and kibana.
+* Run command
+> python mtask3.py 
+* This would present to you the repositories present in the dashboard in the github index.
+* Select the S.No. of the repository which you want to delete and it will be deleted from the dashboard.
+* Run kibana to see dashboards.
