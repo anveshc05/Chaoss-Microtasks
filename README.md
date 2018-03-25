@@ -87,7 +87,7 @@ All the screenshots have been placed in the [Screenshots](mtask3/Screenshots/) d
 
 _Some Sample Screenshots for reference_
 
-![initial_dashboard_1_repo ](mtask3/Screenshots/initial-dashboard/Git/grimoire_git_3.png)
+![initial_dashboard_1_repo ](mtask3/Screenshots/initial_dashboard/Git/grimoire_git_3.png)
 
 
 ![Delete_repo_1 ](mtask3/Screenshots/Delete_repo_1/Git/robocomp_del_git_3.png)
@@ -102,3 +102,13 @@ _Some Sample Screenshots for reference_
 * This would present to you the repositories present in the dashboard in the github index.
 * Select the S.No. of the repository which you want to delete and it will be deleted from the dashboard.
 * Run kibana to see dashboards.
+
+### Micro-task 5
+
+Produce a pull request for any of the GrimoireLab tools, and try to follow instructions until it gets accepted. Try do do something simple that you consider useful, not necessarily fix to the code: improvement of comments, documentation or testing will usually be easier to get accepted, and very useful for the project. Please, avoid just producing a random pull request just to have another microtask: the objective is not that you get one more microtask done, but that you understand how to interact with developers in the project contributing with something that could be useful).
+
+* **Solution**
+
+I have created 2 pull requests in grimoirelab tools and both the pull requests have been merged. The details regarding the same are as follows :-
+1. In grimoirelab-perceval -> [#360](https://github.com/chaoss/grimoirelab-perceval/pull/360)
+2. In grimoirelab-manuscripts -> [#36](https://github.com/chaoss/grimoirelab-manuscripts/pull/36)
