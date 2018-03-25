@@ -1,0 +1,25 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns="http://usefulinc.com/ns/doap#">
+
+	<name>GRIMOIRE</name>
+	<created>2018-03-06</created>
+	<shortdesc xml:lang="en">
+		Repository to show work done for Chaoss-Microtasks.
+	</shortdesc>
+
+	<maintainer>
+		<foaf:Person>
+			<foaf:name>Anvesh Chaturvedi</foaf:name>
+			<foaf:homepage rdf:resource="https://github.com/anveshc05/" />
+		</foaf:Person>
+	</maintainer>
+
+	<repository>
+		<GitRepository>
+			<location rdf:resource="https://github.com/anveshc05/Chaoss-Microtasks"/>
+		</GitRepository>
+	</repository>
+
+</Project>
